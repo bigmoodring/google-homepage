@@ -28,14 +28,12 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding-top: 25px;
     color: rgb(128, 128, 128);
     background-color: rgb(245, 245, 245);
 }
 
 footer ul li a {
     color: rgb(128, 128, 128);
-
 }
 
 .nav-left {
