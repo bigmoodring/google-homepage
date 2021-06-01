@@ -55,12 +55,17 @@ footer ul li a {
     margin: 5px 20px;
 }
 
+.lens-container {
+    width: 600px;
+    margin: auto;
+}
+
 /* Needs work */
 #lens {
     display: block;
     float: left;
     position: absolute;
-    margin: 6px 0 12px 113px;
+    margin: 6px;
     color:rgb(112, 112, 112);
 }
 
