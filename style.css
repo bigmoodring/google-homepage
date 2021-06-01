@@ -11,11 +11,40 @@ ul {
     overflow: hidden;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(128, 128, 128);
+    background-color: rgb(243, 243, 243);
+}
+
+footer ul li a {
+    color: rgb(128, 128, 128);
+
+}
+
 .nav-left {
     float: left;
 }
 
 .nav-right {
+    float: right;
+}
+
+.foot-left {
+    float: left;
+}
+
+.foot-right {
     float: right;
 }
 
@@ -33,7 +62,7 @@ li a:hover {
 
 main {
     text-align: center;
-    margin: 0 auto;
+    margin: 25% auto;
     display: block;
 }
 
