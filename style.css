@@ -4,9 +4,37 @@
     border: 0;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 25px 15px;
+    text-decoration: none;
+    color: black;
+    /* background-color: #dddddd; */
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
 main {
     text-align: center;
     margin: 0 auto;
+    display: block;
 }
 
 form {
