@@ -4,6 +4,10 @@
     border: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -19,6 +23,7 @@ header {
 
 footer {
     position: fixed;
+    font-size: 0.8em;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -62,7 +67,7 @@ footer ul li a {
     font-size: 20px;
     padding: 10px 50px;
     border-radius: 25px;
-    border: thin solid  rgb(235, 234, 234);
+    border: thin solid rgb(219, 219, 219);
 }
 
 .searchbar:hover {
@@ -70,11 +75,19 @@ footer ul li a {
 }
 
 button {
+    position: relative;
     font-size: 0.9em;
-    padding: 10px 20px;
+    padding: 8px 15px;
     border-radius: 3px;
     background-color:rgb(245, 245, 245);
     margin: 5px 5px;
+    border: thin solid rgb(245, 245, 245);
+
+}
+
+button:hover {
+    border: thin solid rgb(236, 236, 236);
+    box-shadow: 0 2px 2px rgb(236, 236, 236);
 }
 
 .foot-left {
@@ -91,6 +104,10 @@ li a {
     text-decoration: none;
     color: black;
     /* background-color: #dddddd; */
+}
+
+li a span {
+
 }
 
 li a:hover {
