@@ -24,7 +24,7 @@ footer {
     text-align: center;
     padding-top: 25px;
     color: rgb(128, 128, 128);
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(245, 245, 245);
 }
 
 footer ul li a {
@@ -49,11 +49,18 @@ footer ul li a {
     margin: 5px 20px;
 }
 
+/* Needs work */
+#lens {
+    display: inline-block;
+    position: absolute;
+    margin: 10px 150px 10px 10px;
+}
+
 .searchbar {
     display: block;
     margin: 45px auto 25px;
     font-size: 20px;
-    padding: 10px 100px;
+    padding: 10px 50px;
     border-radius: 25px;
     border: thin solid  rgb(235, 234, 234);
 }
@@ -63,7 +70,11 @@ footer ul li a {
 }
 
 button {
-
+    font-size: 0.9em;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color:rgb(245, 245, 245);
+    margin: 5px 5px;
 }
 
 .foot-left {
@@ -90,12 +101,6 @@ main {
     text-align: center;
     margin: 220px auto;
     display: block;
-}
-
-form {
-    /* border: 1px solid black; */
-    /* Wraps the entire form */
-
 }
 
 #logo-main {
