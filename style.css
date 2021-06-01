@@ -24,7 +24,7 @@ header {
 
 footer {
     position: fixed;
-    font-size: 0.8em;
+    font-size: 0.9em;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -57,9 +57,11 @@ footer ul li a {
 
 /* Needs work */
 #lens {
-    display: inline-block;
+    display: block;
+    float: left;
     position: absolute;
-    margin: 10px 150px 10px 10px;
+    margin: 6px 0 12px 113px;
+    color:rgb(112, 112, 112);
 }
 
 .searchbar {
