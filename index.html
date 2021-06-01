@@ -14,28 +14,32 @@
     <header>
         <!-- Navbar -->
         <ul>
-            <li><a class="nav-left" href="#">About</a></li>
-            <li><a class="nav-left" href="#">Store</a></li>
-            <li class="nav-right">
-                <a href="#"><span class="material-icons">
-                        account_circle
-                    </span></a>
-            </li>
-            <li class="nav-right">
-                <a href="#"><span class="material-icons">
-                        apps
-                    </span></a>
-            </li>
-            <li><a class="nav-right" href="#">Gmail</a></li>
-            <li><a class="nav-right" href="#">Images</a></li>
-            <!-- <li>Google Apps Icon</li> -->
-            <!-- <li>Google Account Icon</li> -->
+            <div class="nav-left-container">
+                <li><a class="nav-left" href="#">About</a></li>
+                <li><a class="nav-left" href="#">Store</a></li>
+            </div>
+            <div class="nav-right-container">
+                <li class="nav-right">
+                    <a href="#"><span class="material-icons">
+                            account_circle
+                        </span></a>
+                </li>
+                <li class="nav-right">
+                    <a href="#"><span class="material-icons">
+                            apps
+                        </span></a>
+                </li>
+                <li><a class="nav-right" href="#">Gmail</a></li>
+                <li><a class="nav-right" href="#">Images</a></li>
+                <!-- <li>Google Apps Icon</li> -->
+                <!-- <li>Google Account Icon</li> -->
+            </div>
         </ul>
     </header>
     <main>
         <a href="#"><img id="logo-main" src="images/google-logo.png" alt="Google Logo"></a>
-        <form action="search">
-            <input name="searchbar" id="search" type="text">
+        <form class="searchbar-form" action="search">
+            <input class="searchbar" name="searchbar" id="search" type="text">
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
         </form>

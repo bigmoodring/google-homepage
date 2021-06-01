@@ -36,8 +36,34 @@ footer ul li a {
     float: left;
 }
 
+.nav-left-container {
+    margin: 5px 20px;
+}
+
 .nav-right {
     float: right;
+}
+
+/* This doesn't seem to do anything? Somehow inheriting from the left container. */
+.nav-right-container {
+    margin: 5px 20px;
+}
+
+.searchbar {
+    display: block;
+    margin: 45px auto 25px;
+    font-size: 20px;
+    padding: 10px 100px;
+    border-radius: 25px;
+    border: thin solid  rgb(235, 234, 234);
+}
+
+.searchbar:hover {
+    box-shadow: 0px 0px 10px rgb(236, 236, 236);
+}
+
+button {
+
 }
 
 .foot-left {
@@ -62,7 +88,7 @@ li a:hover {
 
 main {
     text-align: center;
-    margin: 25% auto;
+    margin: 220px auto;
     display: block;
 }
 
