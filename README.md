@@ -20,6 +20,8 @@
 
 $ This is my first webpage project for TOP! 
 
+For this project, my goal is to recreate the Google homepage using HTML, CSS, and developer tools.
+
 By the end of this project I hope to have a stronger understanding of HTML & CSS, and how they
 work together. I also hope to be able to competently use the developer tools to dissect webpages 
 and test them in real time. 
