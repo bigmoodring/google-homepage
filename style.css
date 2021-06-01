@@ -106,8 +106,17 @@ li a {
     /* background-color: #dddddd; */
 }
 
-li a span {
+.nav-icon a {
+    padding: 17px 15px;
+}
 
+.material-icons {
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.material-icons:hover {
+    background-color: rgb(219, 219, 219);
 }
 
 li a:hover {
